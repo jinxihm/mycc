@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="a test space">
+    <meta name="author" content="fangliang">
+
+    <!-- Bootstrap -->
+    <link href="/resources/bootstrap331dist/css/bootstrap.css" rel="stylesheet">
+
+    <!-- make IE8 support HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <script src="/resources/jquery/jquery-1.11.1.min.js"></script>
+    <script src="/resources/bootstrap331dist/js/bootstrap.min.js"></script>
+
+    <!-- Local JavaScript -->
+    <script src="js/github.info.js"></script>
+
+    <title>My Article</title>
+
+    <style>
+        
+    </style>
+    <script>
+      $(document).ready(function(){
+    	 $('.article').dblclick(function(){
+    		 $(this).attr('contentEditable',true);
+    		 $(this).click();
+    	 }) ;
+      });
+    </script>
+</head>
+<body>
+
+<div class="container">
+  <div class="row">
+  	<div class="col-md-12"><h1>&nbsp;</h1></div>
+  </div>
+  <div class="row">
+  	<div class="col-md-4">  		
+  	</div>
+  	
+    <div class="col-md-4">
+    	<div class="saysayContent " >
+    	注意力集中在内容上。<br>
+    	随时记下想法。<br>
+    	与其他内容关联起来。<br>
+    	</div>
+    	<div>
+    	  <button type="button" class="btn btn-link">清空</button>&nbsp;
+    	  <button type="button" class="btn btn-success">发送</button>
+    	</div>
+    </div>
+    
+    <div class="col-md-4">
+    </div>
+    
+  </div>
+</div>
+
+</body>
+</html>
